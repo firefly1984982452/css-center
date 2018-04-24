@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>absolute的方法居中</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<style type="text/css">
+			.box{
+				position: relative;
+			}
+			.item{
+				position: absolute;
+				width: 200px;
+				left: 50%;
+				top: 50%;
+				margin-left: -100px;
+				margin-top: -50px;
+				/*transform: translateY(-50%);*/
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="item">
+				已知宽高
+			</div>
+		</div>
+	</body>
+</html>
